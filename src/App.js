@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { TaskProvider } from "./context/TaskContext";
+import TaskInput from "./components/TaskInput";
+import TaskList from "./components/TaskList";
+import './App.css'
+import TaskSummary from "./components/TaskSummary";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(){
+    return(
+        <TaskProvider>
+            <div className="app">
+                <h1>Task Manager</h1>
+                <TaskSummary/>
+                <TaskInput/>
+                <TaskList/>
+            </div>
+        </TaskProvider>
+    )
 }
 
 export default App;
