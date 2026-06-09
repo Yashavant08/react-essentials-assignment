@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+## Live Project Link
+https://react-essentials-assignment-ashy.vercel.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
