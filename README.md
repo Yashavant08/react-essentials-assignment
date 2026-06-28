@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 ## Live Project Link
-https://react-essentials-assignment-8y56.vercel.app
+https://react-essentials-assignment-weather-ten.vercel.app
 
 ## GitHub Repository
 https://github.com/Yashavant08/react-essentials-assignment
